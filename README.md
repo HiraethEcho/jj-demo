@@ -31,9 +31,9 @@ See the [official installation guide](https://martinvonz.github.io/jj/latest/ins
 
 ### Initialize jj in this repository
 ```bash
-# Clone this repo if you haven't already
-git clone https://github.com/HiraethEcho/jj-demo.git
-cd jj-demo
+# Clone this repo (or any Git repository you want to try jj with)
+git clone <repository-url>
+cd <repository-name>
 
 # Initialize jj (creates .jj directory alongside .git)
 jj git init --colocate
